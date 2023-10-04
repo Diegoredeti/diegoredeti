@@ -1,16 +1,7 @@
 # Diego Ferreira
 
 About me:
-
-💻 Eu sou um desenvolvedor web Back-End Jr.
-
-🎓 Estou cursando Desenvolvimento de Software com Foco em Back-End na Cubos Academy.
-
-👩‍💻 Atualmente estou em busca de novas oportunidades.
-
-🔎 Também sou curioso sobre tudo que envolve tecnologia.
-
-📚 Lendo: Lógica de Programação e Algoritmos com JavaScrip - Edécio Fernando lepsen - Editora novatec
+Olá, meu nome é Diego Ferreira sou aprendiz de programação JavaScript, sempre em busca de desafios e ávido por adquirir novos conhecimentos. Se falar sobre desafios, pode contar comigo. Aos 40 anos, abracei o desafio de migrar para a área da tecnologia onde me graduei em Redes de computação e hoje como estudante em desenvolvimento de software Back-end JavaScript (Node) e SQL, estou constantemente aprimorando minhas habilidades, minha jornada de aprendizado envolve a criação de bancos de dados SQL, integração de serviços Web, desenvolvimento de API RESTful. Estou sempre em busca de novos conhecimentos e das melhores práticas de desenvolvimento de software para entregar soluções eficientes e de alta qualidade aos usuários.
 
 Main Stack:
 
