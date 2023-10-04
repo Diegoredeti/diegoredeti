@@ -1,4 +1,4 @@
-# Oi, me chamo Diego Ferreira  👋
+# Oi, me chamo Diego Ferreira
 
 ### Sobre mim
 
@@ -11,8 +11,6 @@
 👩‍💻 Atualmente estou em busca de novas oportunidades.
 
 🔎 Também sou curioso sobre tudo que envolve tecnologia.
-
-✒️ Eu gosto de no meu tempo livre de passear ao ar livre, assistir a filmes e séries, estudar programação, ler...;
 
 📚 Lendo: Lógica de Programação e Algoritmos com JavaScrip - Edécio Fernando lepsen - Editora novatec
 
