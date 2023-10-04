@@ -37,7 +37,7 @@
 ### Cursos realizados 🤓
 
 <a href="https://cubos.academy/cursos/desenvolvimento-de-software">
-<img height= "60em" src= "https://avatars.githubusercontent.com/u/64142676?s=280&v=4">
+<img height= "60em" src= "https://webflow-files-prod.global.ssl.fastly.net/6092ed75cac3156e208ac5e9/63fff979449b657dcba77308_dds%20(2).webp">
 
 
 ### GitHub Stats ⚡
