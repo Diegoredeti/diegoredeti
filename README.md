@@ -12,17 +12,14 @@
 
 📚 Lendo: Lógica de Programação e Algoritmos com JavaScrip - Edécio Fernando lepsen - Editora novatec
 
-### Eu já trabalhei com
-
-**Tecnologias e Ferramentas**
+Main Stack:
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
+Workstation Tools:
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ### Eu estou estudando
 
@@ -49,7 +46,8 @@
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=diegoredeti&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 </div>
 
-### Entre em contato comigo!
+Contacts:
 <div>
 <a href="https://www.linkedin.com/in/ferreiramaia" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 </div>
+![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
