@@ -6,7 +6,7 @@
 
 
 
-🎓 Eu estudo [Desenvolvimento de Software com Foco em Back-End]([https://cubos.academy/cursos/desenvolvimento-de-software-v2](https://cubos.academy/cursos/desenvolvimento-de-software) na Cubos Academy.
+🎓 Eu estudo [Desenvolvimento de Software com Foco em Back-End](https://cubos.academy/cursos/desenvolvimento-de-software-v2) na Cubos Academy.
 
 👩‍💻 Atualmente estou em busca de novas oportunidades.
 
