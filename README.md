@@ -37,7 +37,7 @@
 ### Cursos realizados 🤓
 
 <a href="https://cubos.academy/cursos/desenvolvimento-de-software">
-<img height= "60em" src= "https://webflow-files-prod.global.ssl.fastly.net/6092ed75cac3156e208ac5e9/63fff979449b657dcba77308_dds%20(2).webp">
+<img height= "80em" src= "https://webflow-files-prod.global.ssl.fastly.net/6092ed75cac3156e208ac5e9/63fff979449b657dcba77308_dds%20(2).webp">
 
 <a href="https://www.coursera.org/professional-certificates/suporte-em-ti-do-google">
 <img height= "120em" src="https://images.credly.com/images/0ab768d9-dda0-439e-aeef-edfa6e0f3579/image.png">
