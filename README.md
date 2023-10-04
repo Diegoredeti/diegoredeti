@@ -1,6 +1,6 @@
 # Diego Ferreira
 
-### Sobre mim
+About me:
 
 💻 Eu sou um desenvolvedor web Back-End Jr.
 
@@ -19,9 +19,10 @@ Main Stack:
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 Workstation Tools:
+
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### Eu estou estudando
+I am studying:
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -29,7 +30,7 @@ Workstation Tools:
 ![SQL](https://img.shields.io/badge/sql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 
-### Cursos realizados
+Completed courses:
 
 <a href="https://cubos.academy/cursos/desenvolvimento-de-software">
 <img height= "100em" src= "https://img.youtube.com/vi/U76V693yhug/hqdefault.jpg">
