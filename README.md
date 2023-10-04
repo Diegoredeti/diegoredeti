@@ -1,4 +1,4 @@
-# Oi, me chamo Diego Ferreira
+# Diego Ferreira
 
 ### Sobre mim
 
