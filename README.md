@@ -2,7 +2,7 @@
 
 About me:
 
-Olá, meu nome é Diego Ferreira sou aprendiz de programação JavaScript, sempre em busca de desafios e ávido por adquirir novos conhecimentos. Se falar sobre desafios, pode contar comigo. Aos 40 anos, abracei o desafio de migrar para a área da tecnologia onde me graduei em Redes de computação e hoje como estudante em desenvolvimento de software Back-end JavaScript (Node) e SQL, estou constantemente aprimorando minhas habilidades, minha jornada de aprendizado envolve a criação de bancos de dados SQL, integração de serviços Web, desenvolvimento de API RESTful. Estou sempre em busca de novos conhecimentos e das melhores práticas de desenvolvimento de software para entregar soluções eficientes e de alta qualidade aos usuários.
+Olá, meu nome é Diego sou estudante de programação JavaScript, sempre em busca de desafios e ávido por adquirir novos conhecimentos.  Aos 40 anos, abracei o desafio de migrar para a área da tecnologia onde me graduei em Redes de computação, tenho experiência em suporte técnico e hoje como estudante em desenvolvimento de software Back-end estou constantemente aprimorando minhas habilidades, minha jornada de aprendizado envolve a criação de bancos de dados SQL, integração de serviços Web, desenvolvimento de API RESTful. Estou sempre em busca de novos conhecimentos e das melhores práticas de desenvolvimento para entregar soluções eficientes.
 
 Main Stack:
 
