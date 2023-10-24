@@ -2,7 +2,7 @@
 
 About me:
 
-Formado em Redes de Computador e com certificação em Suporte Técnico, minha carreira se expandiu para o desenvolvimento de software Backend. Minha jornada até aqui inclui Javascript, bancos de dados SQL, integração de serviços Web, autenticação e o desenvolvimento de API´s RESTful. Busco aprimorar minhas habilidades e aplicar as melhores práticas de desenvolvimento para entregar soluções eficientes
+Formado em Redes de Computador e com certificação em Suporte Técnico, minha carreira se expandiu para o desenvolvimento de software Backend. Minha jornada até aqui inclui Javascript, bancos de dados SQL, integração de serviços Web, autenticação e o desenvolvimento de API´s RESTful. Venho constantemente aprimorando minhas habilidades e aplicando as melhores práticas de desenvolvimento para entregar soluções eficientes.
 
 Main Stack:
 
