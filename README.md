@@ -2,7 +2,9 @@
 
 About me:
 
-Sou desenvolvedor Front-End com experiência em criar interfaces dinâmicas e responsivas utilizando HTML5, CSS, JavaScript e frameworks modernos. Minha trajetória é focada no desenvolvimento de sites e aplicações web com atenção à usabilidade, performance e design intuitivo. Além do foco em Front-End, tenho conhecimentos em integração de APIs e práticas básicas de desenvolvimento Back-End, o que me permite colaborar de forma mais abrangente em projetos web. Estou sempre buscando soluções eficientes e aprimorando minhas habilidades para entregar resultados que conectam tecnologia e funcionalidade.
+Formado em Redes de Computadores e com certificações reconhecidas, Transitei da área de redes para o desenvolvimento front-end, onde atuo na criação de websites funcionais e
+responsivos. Tenho experiência com JavaScript, HTML, CSS, WordPress, PHP e bibliotecas como React.  Possuo conhecimento básico em back-end e lógica de programação, o que me permite
+colaborar na integração entre tecnologias. Atualmente, estou cursando Pentest Profissional pela DESEC, expandindo conhecimentos em cibersegurança e proteção de aplicações web.
 
 Main Stack:
 
