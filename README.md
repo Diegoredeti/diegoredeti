@@ -48,7 +48,7 @@ Completed courses:
 ">
 
 <div style="display: flex; align-items: center;">
-  <a href="https://www.alura.com.br/cursos-online" target="_blank">
+  <a href="https://www.alura.com.br/" target="_blank">
     <img height="50px" src="https://www.alura.com.br/assets/img/alura-logo.svg">
   </a>
 </div>
