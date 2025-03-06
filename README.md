@@ -52,8 +52,9 @@
 
 ## 📖 Estou estudando  
 
+![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=white)
 ![Pentest](https://img.shields.io/badge/Pentest-DESEC-red?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
 
 ---
 
