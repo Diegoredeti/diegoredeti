@@ -1,4 +1,4 @@
-# Diego Maia 🚀
+# Diego Maia 
 
 ## Sobre mim  
 
