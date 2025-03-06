@@ -47,6 +47,11 @@ Completed courses:
 <img height= "100" src="[![png-clipart-anhembi-morumbi-university-student-laureate-international-universities-vestibular-exam-student-text-trademark](https://github.com/user-attachments/assets/acaa12bb-62c5-41c6-96fd-4186935f5bee)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fvestibular.brasilescola.uol.com.br%2Fnoticias%2Fanhembi-morumbi-sp-divulga-resultado-vestibular-medicina-2017%2F337895.html&psig=AOvVaw0dQk_wC7cpwGv1v6QwhcaX&ust=1722719672474000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDuwoud14cDFQAAAAAdAAAAABAJ)
 ">
 
+<div style="display: flex; align-items: center;">
+  <a href="https://www.alura.com.br/cursos-online" target="_blank">
+    <img height="50px" src="https://www.alura.com.br/assets/img/alura-logo.svg">
+  </a>
+</div>
 ## Portfólio
 
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-%230077B5.svg?style=for-the-badge)](https://diegomaia.dev/)
