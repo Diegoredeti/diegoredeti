@@ -52,6 +52,7 @@ Completed courses:
     <img height="50px" src="https://www.alura.com.br/assets/img/alura-logo.svg">
   </a>
 </div>
+
 ## Portfólio
 
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-%230077B5.svg?style=for-the-badge)](https://diegomaia.dev/)
