@@ -49,7 +49,6 @@ Meu objetivo é unir minha capacidade de resolver problemas de forma criativa co
 
 ## 📖 Estou estudando  
 
-![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=white)
 ![Pentest](https://img.shields.io/badge/Pentest-DESEC-red?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAA...)  
 
 
