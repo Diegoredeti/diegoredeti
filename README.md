@@ -1,9 +1,8 @@
 # Diego Maia 
 
 ## Sobre mim  
-Com mais de 20 anos de experiência em uma carreira que exigia precisão e atenção aos detalhes, realizei uma transição estratégica para a área de tecnologia, minha verdadeira paixão. Formado como Tecnólogo em Redes de Computadores, construí uma base sólida em infraestrutura de TI, desenvolvimento web e suporte técnico. 
-Atualmente, estou direcionando minha carreira para a Cibersegurança, cursando a formação Pentest Profissional na DESEC Security. 
-Meu objetivo é unir minha capacidade de resolver problemas de forma criativa com o conhecimento técnico em segurança ofensiva para proteger sistemas e dados. Busco uma posição de estágio ou júnior onde eu possa desenvolver minhas habilidades, aprender com equipes experientes e agregar valor através da minha dedicação e perspectiva única.  
+Formado em Redes de Computadores, construí uma base em infraestrutura, desenvolvimento web e suporte técnico. Atualmente, estou direcionando minha carreira para a Cibersegurança, cursando a formação Pentest Profissional na DESEC Security. 
+Meu objetivo é unir minha capacidade de resolver problemas de forma criativa com o conhecimento técnico em segurança ofensiva para proteger sistemas e dados. Busco uma posição de estágio ou júnior onde eu possa desenvolver minhas habilidades, aprender com equipes experientes e agregar valor através da minha dedicação e perspectiva única. 
 
 🔗 Portfólio: [diegomaia.dev](https://diegomaia.dev/)  
 
