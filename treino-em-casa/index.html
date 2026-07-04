@@ -9,6 +9,12 @@
       name="description"
       content="App pessoal de exercícios físicos em casa, sem equipamento ou com 1 halter."
     />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Treino" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/animacoes.css" />
   </head>
@@ -116,5 +122,13 @@
     <script src="js/animacoes.js"></script>
     <script src="js/anamnese.js"></script>
     <script src="js/app.js"></script>
+    <script>
+      // Registra o service worker (instalável + offline).
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("sw.js").catch(() => {});
+        });
+      }
+    </script>
   </body>
 </html>
