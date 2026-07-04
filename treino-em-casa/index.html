@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Treino em Casa</title>
+    <meta
+      name="description"
+      content="App pessoal de exercícios físicos em casa, sem equipamento ou com 1 halter."
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Treino" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animacoes.css" />
+  </head>
+  <body>
+    <div class="app">
+      <!-- Cabeçalho -->
+      <header class="topo">
+        <h1 class="topo__titulo">🏋️ Treino em Casa</h1>
+        <p class="topo__sub">Seu treino, sem sair de casa</p>
+      </header>
+
+      <!-- Navegação -->
+      <nav class="abas" id="abas">
+        <button class="aba aba--ativa" data-aba="rotinas">Treinos</button>
+        <button class="aba" data-aba="exercicios">Exercícios</button>
+        <button class="aba" data-aba="historico">Histórico</button>
+      </nav>
+
+      <main class="conteudo">
+        <!-- TELA: Rotinas -->
+        <section class="tela tela--ativa" id="tela-rotinas">
+          <div class="resumo-semana" id="resumo-semana"></div>
+
+          <!-- Treino personalizado (gerado pela anamnese) -->
+          <div id="area-personalizado"></div>
+
+          <h2 class="secao-titulo">Rotinas prontas</h2>
+          <div class="filtros" id="filtros-equip">
+            <button class="chip chip--ativo" data-equip="todos">Todas</button>
+            <button class="chip" data-equip="nenhum">Sem equipamento</button>
+            <button class="chip" data-equip="halter">Com halter</button>
+          </div>
+          <div class="lista-rotinas" id="lista-rotinas"></div>
+        </section>
+
+        <!-- TELA: Exercícios -->
+        <section class="tela" id="tela-exercicios">
+          <h2 class="secao-titulo">Biblioteca de exercícios</h2>
+          <div class="filtros" id="filtros-nivel">
+            <button class="chip chip--ativo" data-nivel="todos">Todos</button>
+            <button class="chip" data-nivel="nenhum">Peso do corpo</button>
+            <button class="chip" data-nivel="halter">Com halter</button>
+          </div>
+          <div class="lista-exercicios" id="lista-exercicios"></div>
+        </section>
+
+        <!-- TELA: Histórico -->
+        <section class="tela" id="tela-historico">
+          <h2 class="secao-titulo">Seu histórico</h2>
+          <div class="estatisticas" id="estatisticas"></div>
+          <div class="perfil-resumo" id="perfil-resumo"></div>
+          <div class="lista-historico" id="lista-historico"></div>
+        </section>
+      </main>
+    </div>
+
+    <!-- TELA CHEIA: Anamnese -->
+    <div class="anamnese" id="anamnese" hidden>
+      <div class="anamnese__topo">
+        <div class="anamnese__barra"><div class="anamnese__barra-int" id="anamnese-barra"></div></div>
+      </div>
+      <div class="anamnese__corpo" id="anamnese-corpo"></div>
+      <div class="anamnese__rodape">
+        <button class="btn btn--secundario" id="anamnese-voltar">Voltar</button>
+        <button class="btn btn--primario" id="anamnese-avancar">Continuar</button>
+      </div>
+    </div>
+
+    <!-- TELA CHEIA: Treino em execução -->
+    <div class="treino" id="treino" hidden>
+      <div class="treino__cabecalho">
+        <button class="treino__sair" id="btn-sair-treino" aria-label="Sair do treino">✕</button>
+        <span class="treino__progresso" id="treino-progresso">1 / 6</span>
+      </div>
+
+      <div class="treino__corpo">
+        <p class="treino__fase" id="treino-fase">Preparar</p>
+        <div class="treino__anim" id="treino-anim"></div>
+        <h2 class="treino__exercicio" id="treino-exercicio">Exercício</h2>
+        <div class="treino__cronometro" id="treino-cronometro">00:30</div>
+        <p class="treino__meta" id="treino-meta"></p>
+        <p class="treino__descricao" id="treino-descricao"></p>
+      </div>
+
+      <div class="treino__controles">
+        <button class="btn btn--secundario" id="btn-pausar">Pausar</button>
+        <button class="btn btn--primario" id="btn-proximo">Pular ➜</button>
+      </div>
+      <div class="treino__proximo" id="treino-proximo"></div>
+    </div>
+
+    <!-- MODAL: detalhe do exercício -->
+    <div class="modal" id="modal-exercicio" hidden>
+      <div class="modal__caixa">
+        <button class="modal__fechar" id="modal-fechar" aria-label="Fechar">✕</button>
+        <div class="modal__anim" id="modal-anim"></div>
+        <h3 class="modal__titulo" id="modal-titulo"></h3>
+        <span class="modal__grupo" id="modal-grupo"></span>
+        <p class="modal__descricao" id="modal-descricao"></p>
+        <div class="modal__dica" id="modal-dica"></div>
+      </div>
+    </div>
+
+    <script src="js/dados.js"></script>
+    <script src="js/animacoes.js"></script>
+    <script src="js/anamnese.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      // Registra o service worker (instalável + offline).
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("sw.js").catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
