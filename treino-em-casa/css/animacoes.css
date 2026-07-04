@@ -1,0 +1,160 @@
+/* =========================================================
+   Animações dos exercícios (stick figure em SVG)
+   ========================================================= */
+
+.anim {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.anim .osso,
+.anim .torso,
+.anim .pe {
+  stroke: var(--destaque);
+  stroke-width: 7;
+  stroke-linecap: round;
+  fill: none;
+}
+.anim .chao {
+  stroke: var(--borda);
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+.anim .cabeca {
+  fill: var(--destaque);
+}
+.anim .mao {
+  fill: var(--destaque);
+}
+.anim .halter rect {
+  fill: var(--alerta);
+}
+
+/* Pivôs de rotação em cada articulação (coordenadas do viewBox). */
+.anim g {
+  transform-box: view-box;
+}
+.braco-e { transform-origin: 84px 102px; }
+.braco-d { transform-origin: 116px 102px; }
+.antebraco-e { transform-origin: 84px 132px; }
+.antebraco-d { transform-origin: 116px 132px; }
+.coxa-e { transform-origin: 88px 166px; }
+.coxa-d { transform-origin: 112px 166px; }
+.canela-e { transform-origin: 88px 199px; }
+.canela-d { transform-origin: 112px 199px; }
+.tronco { transform-origin: 100px 166px; }
+
+/* ---------------- Polichinelo ---------------- */
+.a-polichinelo .fig { animation: pol-fig 1s infinite ease-in-out; }
+.a-polichinelo .braco-e { animation: pol-be 1s infinite ease-in-out; }
+.a-polichinelo .braco-d { animation: pol-bd 1s infinite ease-in-out; }
+.a-polichinelo .coxa-e { animation: pol-ce 1s infinite ease-in-out; }
+.a-polichinelo .coxa-d { animation: pol-cd 1s infinite ease-in-out; }
+@keyframes pol-fig { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes pol-be { 0%,100% { transform: rotate(6deg); } 50% { transform: rotate(155deg); } }
+@keyframes pol-bd { 0%,100% { transform: rotate(-6deg); } 50% { transform: rotate(-155deg); } }
+@keyframes pol-ce { 0%,100% { transform: rotate(4deg); } 50% { transform: rotate(17deg); } }
+@keyframes pol-cd { 0%,100% { transform: rotate(-4deg); } 50% { transform: rotate(-17deg); } }
+
+/* ---------------- Agachamento ---------------- */
+.a-agachar .fig { animation: sq-fig 1.8s infinite ease-in-out; }
+.a-agachar .tronco { animation: sq-tr 1.8s infinite ease-in-out; }
+.a-agachar .coxa-e { animation: sq-ce 1.8s infinite ease-in-out; }
+.a-agachar .coxa-d { animation: sq-cd 1.8s infinite ease-in-out; }
+.a-agachar .canela-e { animation: sq-ke 1.8s infinite ease-in-out; }
+.a-agachar .canela-d { animation: sq-kd 1.8s infinite ease-in-out; }
+.a-agachar .braco-e { animation: sq-be 1.8s infinite ease-in-out; }
+.a-agachar .braco-d { animation: sq-bd 1.8s infinite ease-in-out; }
+@keyframes sq-fig { 0%,100% { transform: translateY(0); } 50% { transform: translateY(18px); } }
+@keyframes sq-tr { 0%,100% { transform: rotate(0); } 50% { transform: rotate(10deg); } }
+@keyframes sq-ce { 0%,100% { transform: rotate(0); } 50% { transform: rotate(14deg); } }
+@keyframes sq-cd { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-14deg); } }
+@keyframes sq-ke { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-14deg); } }
+@keyframes sq-kd { 0%,100% { transform: rotate(0); } 50% { transform: rotate(14deg); } }
+@keyframes sq-be { 0%,100% { transform: rotate(6deg); } 50% { transform: rotate(80deg); } }
+@keyframes sq-bd { 0%,100% { transform: rotate(-6deg); } 50% { transform: rotate(-80deg); } }
+
+/* ---------------- Afundo ---------------- */
+.a-afundo .fig { animation: lu-fig 2s infinite ease-in-out; }
+.a-afundo .coxa-d { animation: lu-cd 2s infinite ease-in-out; }
+.a-afundo .canela-d { animation: lu-kd 2s infinite ease-in-out; }
+.a-afundo .coxa-e { animation: lu-ce 2s infinite ease-in-out; }
+.a-afundo .canela-e { animation: lu-ke 2s infinite ease-in-out; }
+@keyframes lu-fig { 0%,100% { transform: translateY(0); } 50% { transform: translateY(14px); } }
+@keyframes lu-cd { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-26deg); } }
+@keyframes lu-kd { 0%,100% { transform: rotate(0); } 50% { transform: rotate(24deg); } }
+@keyframes lu-ce { 0%,100% { transform: rotate(0); } 50% { transform: rotate(10deg); } }
+@keyframes lu-ke { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-42deg); } }
+
+/* ---------------- Panturrilha ---------------- */
+.a-panturrilha .fig { animation: cf-fig 1.3s infinite ease-in-out; }
+@keyframes cf-fig { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-11px); } }
+
+/* ---------------- Rosca (alternada) ---------------- */
+.a-rosca .antebraco-e { animation: rz-e 1.8s infinite ease-in-out; }
+.a-rosca .antebraco-d { animation: rz-d 1.8s infinite ease-in-out; animation-delay: -0.9s; }
+@keyframes rz-e { 0%,100% { transform: rotate(0); } 45% { transform: rotate(150deg); } }
+@keyframes rz-d { 0%,100% { transform: rotate(0); } 45% { transform: rotate(-150deg); } }
+
+/* ---------------- Desenvolvimento / Tríceps ---------------- */
+.a-desenvolvimento .braco-e { transform: rotate(165deg); }
+.a-desenvolvimento .braco-d { transform: rotate(-165deg); }
+.a-desenvolvimento .antebraco-e { animation: dv-e 2s infinite ease-in-out; }
+.a-desenvolvimento .antebraco-d { animation: dv-d 2s infinite ease-in-out; }
+@keyframes dv-e { 0%,100% { transform: rotate(-72deg); } 50% { transform: rotate(0deg); } }
+@keyframes dv-d { 0%,100% { transform: rotate(72deg); } 50% { transform: rotate(0deg); } }
+
+/* ---------------- Elevação lateral ---------------- */
+.a-elevacao-lateral .braco-e { animation: el-e 2s infinite ease-in-out; }
+.a-elevacao-lateral .braco-d { animation: el-d 2s infinite ease-in-out; }
+@keyframes el-e { 0%,100% { transform: rotate(6deg); } 50% { transform: rotate(92deg); } }
+@keyframes el-d { 0%,100% { transform: rotate(-6deg); } 50% { transform: rotate(-92deg); } }
+
+/* ---------------- Remada (tronco inclinado, puxa o braço) ---------------- */
+.a-remada .tronco { transform: rotate(50deg); }
+.a-remada .braco-e { animation: rm-b 1.9s infinite ease-in-out; }
+.a-remada .antebraco-e { animation: rm-a 1.9s infinite ease-in-out; }
+@keyframes rm-b { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-58deg); } }
+@keyframes rm-a { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-35deg); } }
+
+/* ---------------- Peso morto / RDL (dobradiça de quadril) ---------------- */
+.a-terra .tronco { animation: td-tr 2.2s infinite ease-in-out; }
+@keyframes td-tr { 0%,100% { transform: rotate(0); } 50% { transform: rotate(60deg); } }
+
+/* ---------------- Flexão ---------------- */
+.fx-corpo { transform-box: view-box; transform-origin: 34px 128px; }
+.a-flexao .fx-corpo { animation: fx 2s infinite ease-in-out; }
+@keyframes fx { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-4.5deg); } }
+
+/* ---------------- Prancha ---------------- */
+.pk-corpo { transform-box: view-box; }
+.a-prancha .pk-corpo { animation: pk 3s infinite ease-in-out; }
+@keyframes pk { 0%,100% { transform: translateY(0); } 50% { transform: translateY(2.5px); } }
+
+/* ---------------- Escalador ---------------- */
+.mc-perna-e, .mc-perna-d { transform-box: view-box; transform-origin: 96px 104px; }
+.a-escalador .mc-perna-e { animation: mc 0.9s infinite ease-in-out; }
+.a-escalador .mc-perna-d { animation: mc 0.9s infinite ease-in-out; animation-delay: -0.45s; }
+@keyframes mc { 0%,100% { transform: rotate(0); } 50% { transform: rotate(44deg); } }
+
+/* ---------------- Abdominal ---------------- */
+.ab-tronco { transform-box: view-box; transform-origin: 140px 118px; }
+.a-abdominal .ab-tronco { animation: ab 1.9s infinite ease-in-out; }
+@keyframes ab { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-30deg); } }
+
+/* ---------------- Ponte de glúteo ---------------- */
+.pt-corpo { transform-box: view-box; transform-origin: 48px 118px; }
+.a-ponte .pt-corpo { animation: pt 2s infinite ease-in-out; }
+@keyframes pt { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-12deg); } }
+
+/* ---------------- Superman ---------------- */
+.sm-braco { transform-box: view-box; transform-origin: 168px 108px; }
+.sm-perna { transform-box: view-box; transform-origin: 118px 108px; }
+.a-superman .sm-braco { animation: sm-b 2.2s infinite ease-in-out; }
+.a-superman .sm-perna { animation: sm-p 2.2s infinite ease-in-out; }
+@keyframes sm-b { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-20deg); } }
+@keyframes sm-p { 0%,100% { transform: rotate(0); } 50% { transform: rotate(20deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .anim * { animation: none !important; }
+}

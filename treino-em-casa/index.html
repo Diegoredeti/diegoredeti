@@ -7,9 +7,10 @@
     <title>Treino em Casa</title>
     <meta
       name="description"
-      content="App pessoal de exercícios físicos em casa, sem equipamento."
+      content="App pessoal de exercícios físicos em casa, sem equipamento ou com 1 halter."
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animacoes.css" />
   </head>
   <body>
     <div class="app">
@@ -21,7 +22,7 @@
 
       <!-- Navegação -->
       <nav class="abas" id="abas">
-        <button class="aba aba--ativa" data-aba="rotinas">Rotinas</button>
+        <button class="aba aba--ativa" data-aba="rotinas">Treinos</button>
         <button class="aba" data-aba="exercicios">Exercícios</button>
         <button class="aba" data-aba="historico">Histórico</button>
       </nav>
@@ -30,7 +31,16 @@
         <!-- TELA: Rotinas -->
         <section class="tela tela--ativa" id="tela-rotinas">
           <div class="resumo-semana" id="resumo-semana"></div>
+
+          <!-- Treino personalizado (gerado pela anamnese) -->
+          <div id="area-personalizado"></div>
+
           <h2 class="secao-titulo">Rotinas prontas</h2>
+          <div class="filtros" id="filtros-equip">
+            <button class="chip chip--ativo" data-equip="todos">Todas</button>
+            <button class="chip" data-equip="nenhum">Sem equipamento</button>
+            <button class="chip" data-equip="halter">Com halter</button>
+          </div>
           <div class="lista-rotinas" id="lista-rotinas"></div>
         </section>
 
@@ -39,9 +49,8 @@
           <h2 class="secao-titulo">Biblioteca de exercícios</h2>
           <div class="filtros" id="filtros-nivel">
             <button class="chip chip--ativo" data-nivel="todos">Todos</button>
-            <button class="chip" data-nivel="iniciante">Iniciante</button>
-            <button class="chip" data-nivel="intermediario">Intermediário</button>
-            <button class="chip" data-nivel="avancado">Avançado</button>
+            <button class="chip" data-nivel="nenhum">Peso do corpo</button>
+            <button class="chip" data-nivel="halter">Com halter</button>
           </div>
           <div class="lista-exercicios" id="lista-exercicios"></div>
         </section>
@@ -50,9 +59,22 @@
         <section class="tela" id="tela-historico">
           <h2 class="secao-titulo">Seu histórico</h2>
           <div class="estatisticas" id="estatisticas"></div>
+          <div class="perfil-resumo" id="perfil-resumo"></div>
           <div class="lista-historico" id="lista-historico"></div>
         </section>
       </main>
+    </div>
+
+    <!-- TELA CHEIA: Anamnese -->
+    <div class="anamnese" id="anamnese" hidden>
+      <div class="anamnese__topo">
+        <div class="anamnese__barra"><div class="anamnese__barra-int" id="anamnese-barra"></div></div>
+      </div>
+      <div class="anamnese__corpo" id="anamnese-corpo"></div>
+      <div class="anamnese__rodape">
+        <button class="btn btn--secundario" id="anamnese-voltar">Voltar</button>
+        <button class="btn btn--primario" id="anamnese-avancar">Continuar</button>
+      </div>
     </div>
 
     <!-- TELA CHEIA: Treino em execução -->
@@ -64,6 +86,7 @@
 
       <div class="treino__corpo">
         <p class="treino__fase" id="treino-fase">Preparar</p>
+        <div class="treino__anim" id="treino-anim"></div>
         <h2 class="treino__exercicio" id="treino-exercicio">Exercício</h2>
         <div class="treino__cronometro" id="treino-cronometro">00:30</div>
         <p class="treino__meta" id="treino-meta"></p>
@@ -81,6 +104,7 @@
     <div class="modal" id="modal-exercicio" hidden>
       <div class="modal__caixa">
         <button class="modal__fechar" id="modal-fechar" aria-label="Fechar">✕</button>
+        <div class="modal__anim" id="modal-anim"></div>
         <h3 class="modal__titulo" id="modal-titulo"></h3>
         <span class="modal__grupo" id="modal-grupo"></span>
         <p class="modal__descricao" id="modal-descricao"></p>
@@ -89,6 +113,8 @@
     </div>
 
     <script src="js/dados.js"></script>
+    <script src="js/animacoes.js"></script>
+    <script src="js/anamnese.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
